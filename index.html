@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>我的作品集 | 项目工作台</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;}
+body{background-color:#f0f4f1;padding:48px 20px;max-width:1240px;margin:0 auto;}
+h1{text-align:center;color:#1f352b;margin-bottom:12px;font-size:36px;}
+.subtitle{text-align:center;color:#50665c;margin-bottom:48px;font-size:18px;}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:28px;}
+.card{background:#ffffff;border-radius:16px;padding:28px;box-shadow:0 6px 18px rgba(30,60,45,0.08);transition:transform 0.25s ease;}
+.card:hover{transform:translateY(-6px);}
+.card h3{color:#1f352b;margin-bottom:12px;font-size:22px;}
+.card p{color:#556960;line-height:1.6;margin-bottom:24px;min-height:52px;}
+.btn-group a{display:inline-block;text-decoration:none;padding:9px 18px;border-radius:8px;font-size:14px;font-weight:500;margin-right:10px;}
+.preview{background:#2c5c44;color:white;}
+.source{background:#24292f;color:white;}
+footer{margin-top:60px;text-align:center;color:#778880;font-size:14px;}
+</style>
+</head>
+<body>
+<h1>我的项目工作台合集</h1>
+<p class="subtitle">静态网页作品集｜项目预览与源码</p>
+
+<div class="grid">
+  <!-- ========== 项目卡片1：你的工作台项目 ========== -->
+  <div class="card">
+    <h3>工作台项目</h3>
+    <p>静态工作台页面，可视化内容展示面板</p>
+    <div class="btn-group">
+      <a class="preview" href="https://luoaluo8888-ui.github.io/hahha/" target="_blank">在线预览</a>
+      <a class="source" href="https://github.com/luoaluo8888-ui/hahha" target="_blank">查看源码</a>
+    </div>
+  </div>
+
+  <!-- ========== 新增项目模板（以后新项目直接复制这一段 ==========
+  <div class="card">
+    <h3>项目名称</h3>
+    <p>项目简短介绍，一句话描述用途</p>
+    <div class="btn-group">
+      <a class="preview" href="项目在线预览地址" target="_blank">在线预览</a>
+      <a class="source" href="项目github仓库地址" target="_blank">查看源码</a>
+    </div>
+  </div>
+  -->
+</div>
+
+<footer>© 2026 作品集 | luoaluo8888-ui</footer>
+</body>
+</html>
